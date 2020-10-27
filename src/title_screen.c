@@ -24,11 +24,12 @@
 #include "constants/songs.h"
 
 #define VERSION_BANNER_RIGHT_TILEOFFSET 64
-#define VERSION_BANNER_LEFT_X 98
-#define VERSION_BANNER_RIGHT_X 162
-#define VERSION_BANNER_Y 2
 #define VERSION_BANNER_Y_GOAL 66
-#define START_BANNER_X 128
+#define VERSION_BANNER_X_GOAL 138
+#define VERSION_BANNER_LEFT_X VERSION_BANNER_X_GOAL-64
+#define VERSION_BANNER_RIGHT_X VERSION_BANNER_LEFT_X+64
+#define VERSION_BANNER_Y 66
+#define START_BANNER_X 170
 
 #define CLEAR_SAVE_BUTTON_COMBO (B_BUTTON | SELECT_BUTTON | DPAD_UP)
 #define RESET_RTC_BUTTON_COMBO (B_BUTTON | SELECT_BUTTON | DPAD_LEFT)
@@ -57,8 +58,8 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite);
 // const rom data
 static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unk_853EF78.gbapal");
 
-static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/rayquaza.4bpp.lz");
-static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_screen/rayquaza.bin.lz");
+static const u32 sTitleScreenRayquazaGfx[] = INCBIN_U32("graphics/title_screen/frigo.4bpp.lz");
+static const u32 sTitleScreenRayquazaTilemap[] = INCBIN_U32("graphics/title_screen/frigo.bin.lz");
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/logo_shine.4bpp.lz");
 static const u32 sTitleScreenCloudsGfx[] = INCBIN_U32("graphics/title_screen/clouds.4bpp.lz");
 
@@ -357,11 +358,14 @@ static void SpriteCB_VersionBannerLeft(struct Sprite *sprite)
     {
         sprite->oam.objMode = ST_OAM_OBJ_NORMAL;
         sprite->pos1.y = VERSION_BANNER_Y_GOAL;
+        sprite->pos1.x = VERSION_BANNER_X_GOAL;
     }
     else
     {
         if (sprite->pos1.y != VERSION_BANNER_Y_GOAL)
             sprite->pos1.y++;
+        if (sprite->pos1.x != VERSION_BANNER_X_GOAL)
+            sprite->pos1.x++;
         if (sprite->data[0] != 0)
             sprite->data[0]--;
         SetGpuReg(REG_OFFSET_BLDALPHA, gIntroWaterDropAlphaBlend[sprite->data[0]]);
@@ -374,11 +378,14 @@ static void SpriteCB_VersionBannerRight(struct Sprite *sprite)
     {
         sprite->oam.objMode = ST_OAM_OBJ_NORMAL;
         sprite->pos1.y = VERSION_BANNER_Y_GOAL;
+        sprite->pos1.x = VERSION_BANNER_X_GOAL+64;
     }
     else
     {
         if (sprite->pos1.y != VERSION_BANNER_Y_GOAL)
             sprite->pos1.y++;
+        if (sprite->pos1.x != VERSION_BANNER_X_GOAL+64)
+            sprite->pos1.x++;
     }
 }
 
@@ -576,6 +583,7 @@ void CB2_InitTitleScreen(void)
         gTasks[taskId].tSkipToNext = FALSE;
         gTasks[taskId].data[2] = -16;
         gTasks[taskId].data[3] = -32;
+        gTasks[taskId].data[8] = -32;
         gMain.state = 3;
         break;
     }
@@ -671,7 +679,7 @@ static void Task_TitleScreenPhase1(u8 taskId)
         spriteId = CreateSprite(&sVersionBannerRightSpriteTemplate, VERSION_BANNER_RIGHT_X, VERSION_BANNER_Y, 0);
         gSprites[spriteId].data[1] = taskId;
 
-        gTasks[taskId].tCounter = 144;
+        gTasks[taskId].tCounter = 64;
         gTasks[taskId].func = Task_TitleScreenPhase2;
     }
 }
@@ -679,7 +687,7 @@ static void Task_TitleScreenPhase1(u8 taskId)
 // Create "Press Start" and copyright banners, and slide Pokemon logo up
 static void Task_TitleScreenPhase2(u8 taskId)
 {
-    u32 yPos;
+    u32 yPos, xPos;
 
     // Skip to next phase when A, B, Start, or Select is pressed
     if ((gMain.newKeys & A_B_START_SELECT) || gTasks[taskId].tSkipToNext)
@@ -705,8 +713,9 @@ static void Task_TitleScreenPhase2(u8 taskId)
                                     | DISPCNT_BG2_ON
                                     | DISPCNT_OBJ_ON);
         CreatePressStartBanner(START_BANNER_X, 108);
-        CreateCopyrightBanner(START_BANNER_X, 148);
+        CreateCopyrightBanner(START_BANNER_X + 24, 148);
         gTasks[taskId].data[4] = 0;
+        gTasks[taskId].data[8] = -64;
         gTasks[taskId].func = Task_TitleScreenPhase3;
     }
 
@@ -714,9 +723,15 @@ static void Task_TitleScreenPhase2(u8 taskId)
         gTasks[taskId].data[2]++;
     if (!(gTasks[taskId].tCounter & 1) && gTasks[taskId].data[3] != 0)
         gTasks[taskId].data[3]++;
+    if (!(gTasks[taskId].tCounter & 1) && gTasks[taskId].data[8] > -64)
+        gTasks[taskId].data[8]--;
+        
 
     // Slide Pokemon logo up
     yPos = gTasks[taskId].data[3] * 256;
+    xPos = gTasks[taskId].data[8] * 256;
+    SetGpuReg(REG_OFFSET_BG2X_L, xPos);
+    SetGpuReg(REG_OFFSET_BG2X_H, xPos / 0x10000);
     SetGpuReg(REG_OFFSET_BG2Y_L, yPos);
     SetGpuReg(REG_OFFSET_BG2Y_H, yPos / 0x10000);
 
