@@ -463,7 +463,7 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite)
                 || sprite->pos1.x == DISPLAY_WIDTH / 2 + 16
                 || sprite->pos1.x == DISPLAY_WIDTH / 2 + 20
                 || sprite->pos1.x == DISPLAY_WIDTH / 2 + 24)
-                gPlttBufferFaded[0] = RGB(24, 31, 12);
+                gPlttBufferFaded[0] = RGB(8, 12, 24);
             else
                 gPlttBufferFaded[0] = backgroundColor;
         }
@@ -492,23 +492,22 @@ static void StartPokemonLogoShine(u8 flashBg)
     {
     case 0:
     case 2:
-        spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, 0, 68, 0);
-        gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
-        gSprites[spriteId].data[0] = flashBg;
-        break;
     case 1:
         spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, 0, 68, 0);
         gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
         gSprites[spriteId].data[0] = flashBg;
-        gSprites[spriteId].invisible = TRUE;
+        break;
+        //spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, 0, 68, 0);
+        //gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
+        //gSprites[spriteId].data[0] = flashBg;
 
-        spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, 0, 68, 0);
-        gSprites[spriteId].callback = SpriteCB_PokemonLogoShine2;
-        gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
+        //spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, 0, 68, 0);
+        //gSprites[spriteId].callback = SpriteCB_PokemonLogoShine2;
+        //gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
 
-        spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, -80, 68, 0);
-        gSprites[spriteId].callback = SpriteCB_PokemonLogoShine2;
-        gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
+        //spriteId = CreateSprite(&sPokemonLogoShineSpriteTemplate, -80, 68, 0);
+        //gSprites[spriteId].callback = SpriteCB_PokemonLogoShine2;
+        //gSprites[spriteId].oam.objMode = ST_OAM_OBJ_WINDOW;
         break;
     }
 }
@@ -713,7 +712,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
                                     | DISPCNT_BG2_ON
                                     | DISPCNT_OBJ_ON);
         CreatePressStartBanner(START_BANNER_X, 108);
-        CreateCopyrightBanner(START_BANNER_X + 24, 148);
+        CreateCopyrightBanner(START_BANNER_X + 27, 152);
         gTasks[taskId].data[4] = 0;
         gTasks[taskId].data[8] = -64;
         gTasks[taskId].func = Task_TitleScreenPhase3;
@@ -822,12 +821,12 @@ static void UpdateLegendaryMarkingColor(u8 frameNum)
 {
     if ((frameNum % 4) == 0) // Change color every 4th frame
     {
-        s32 intensity = Cos(frameNum, 128) + 128;
-        s32 r = 31 - ((intensity * 32 - intensity) / 256);
-        s32 g = 31 - (intensity * 22 / 256);
-        s32 b = 12;
+        s32 intensity = Cos(frameNum, 16)+15;
+        s32 r = (intensity * .3) + 4;
+        s32 g = (intensity * .3) + 8;
+        s32 b = (intensity * .3) + 12;
 
         u16 color = RGB(r, g, b);
-        LoadPalette(&color, 0xEF, sizeof(color));
+        LoadPalette(&color, 0xEA, sizeof(color));
    }
 }
