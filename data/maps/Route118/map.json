@@ -19,11 +19,6 @@
       "map": "MAP_ROUTE119"
     },
     {
-      "direction": "left",
-      "offset": 0,
-      "map": "MAP_MAUVILLE_CITY"
-    },
-    {
       "direction": "right",
       "offset": 0,
       "map": "MAP_ROUTE123"
