@@ -17,11 +17,6 @@
       "direction": "left",
       "offset": 0,
       "map": "MAP_VERDANTURF_TOWN"
-    },
-    {
-      "direction": "right",
-      "offset": 0,
-      "map": "MAP_MAUVILLE_CITY"
     }
   ],
   "object_events": [
