@@ -868,7 +868,9 @@ LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch: @ 81FB0E7
 	.string "Better not mess around with it.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CrammedWithBooksOnPokemon: @ 81FB124
-	.string "It's crammed with books on POKéMON.$"
+	.string "THIS FINAL POKEMON!\n"
+	.string "ME NO WANT FINAL ME WANT BEYTAH!\p"
+	.string "BEYTAH BETTAH DEN DA FINAL!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BookTooHardToRead: @ 81FB148
 	.string "It's a book that's too hard to read.$"

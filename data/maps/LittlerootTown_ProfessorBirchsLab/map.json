@@ -91,6 +91,58 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita",
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 9,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 10,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 11,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BIRCHS_BAG",
+      "x": 2,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route101_EventScript_BirchsBag",
+      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
     }
   ],
   "warp_events": [
@@ -155,32 +207,32 @@
     },
     {
       "type": "sign",
-      "x": 0,
-      "y": 7,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
-    },
-    {
-      "type": "sign",
-      "x": 1,
-      "y": 7,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
-    },
-    {
-      "type": "sign",
       "x": 2,
-      "y": 7,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
     },
     {
       "type": "sign",
-      "x": 3,
-      "y": 7,
+      "x": 11,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
@@ -203,15 +255,15 @@
     },
     {
       "type": "sign",
-      "x": 2,
-      "y": 10,
+      "x": 0,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_ProfessorBirchsLab_EventScript_PC"
     },
     {
       "type": "sign",
-      "x": 0,
+      "x": 1,
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
