@@ -2367,7 +2367,7 @@
       "width": 5,
       "height": 5,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_InsideOfTruck",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/InsideOfTruck/border.bin",
       "blockdata_filepath": "data/layouts/InsideOfTruck/map.bin"
     },
