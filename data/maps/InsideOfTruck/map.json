@@ -59,22 +59,22 @@
       "x": 0,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_NONE",
-      "dest_warp_id": 127
+      "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
+      "dest_warp_id": 3
     },
     {
       "x": 0,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_NONE",
-      "dest_warp_id": 127
+      "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
+      "dest_warp_id": 4
     },
     {
       "x": 0,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_NONE",
-      "dest_warp_id": 127
+      "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
+      "dest_warp_id": 5
     }
   ],
   "coord_events": [
@@ -125,24 +125,24 @@
     },
     {
       "type": "sign",
+      "x": 4,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox"
+    },
+    {
+      "type": "sign",
+      "x": 0,
+      "y": 0,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox"
+    },
+    {
+      "type": "sign",
       "x": 3,
-      "y": 3,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "InsideOfTruck_EventScript_MovingBox"
-    },
-    {
-      "type": "sign",
-      "x": 2,
       "y": 2,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "InsideOfTruck_EventScript_MovingBox"
-    },
-    {
-      "type": "sign",
-      "x": 2,
-      "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "InsideOfTruck_EventScript_MovingBox"
