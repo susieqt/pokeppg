@@ -3934,8 +3934,8 @@
     {
       "id": "LAYOUT_SAFARI_ZONE_NORTHEAST",
       "name": "SafariZone_Northeast_Layout",
-      "width": 40,
-      "height": 40,
+      "width": 80,
+      "height": 80,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Northeast/border.bin",
