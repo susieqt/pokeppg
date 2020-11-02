@@ -17,11 +17,6 @@
       "direction": "left",
       "offset": 0,
       "map": "MAP_SAFARI_ZONE_SOUTH"
-    },
-    {
-      "direction": "up",
-      "offset": 0,
-      "map": "MAP_SAFARI_ZONE_NORTHEAST"
     }
   ],
   "object_events": [
@@ -91,8 +86,12 @@
       "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",

@@ -17,6 +17,16 @@
       "direction": "right",
       "offset": 0,
       "map": "MAP_ROUTE105"
+    },
+    {
+      "direction": "down",
+      "offset": 0,
+      "map": "MAP_SAFARI_ZONE_NORTHEAST"
+    },
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_TRAIN"
     }
   ],
   "object_events": [
