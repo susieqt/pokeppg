@@ -4,9 +4,9 @@ InsideOfTruck_MapScripts:: @ 823BEDA
 	.byte 0
 
 InsideOfTruck_OnLoad: @ 823BEE5
-	setmetatile 4, 1, METATILE_InsideOfTruck_ExitLight_Top, 0
-	setmetatile 4, 2, METATILE_InsideOfTruck_ExitLight_Mid, 0
-	setmetatile 4, 3, METATILE_InsideOfTruck_ExitLight_Bottom, 0
+	setmetatile 0, 1, METATILE_InsideOfTruck_ExitLight_Top, 0
+	setmetatile 0, 2, METATILE_InsideOfTruck_ExitLight_Mid, 0
+	setmetatile 0, 3, METATILE_InsideOfTruck_ExitLight_Bottom, 0
 	end
 
 InsideOfTruck_OnResume: @ 823BF01
@@ -32,7 +32,7 @@ InsideOfTruck_EventScript_SetIntroFlagsMale:: @ 823BF20
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
 	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 1
-	setdynamicwarp MAP_LITTLEROOT_TOWN, 255, 3, 10
+	setdynamicwarp MAP_PETALBURG_CITY, 255, 3, 10
 	releaseall
 	end
 
@@ -45,7 +45,7 @@ InsideOfTruck_EventScript_SetIntroFlagsFemale:: @ 823BF46
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 1
-	setdynamicwarp MAP_LITTLEROOT_TOWN, 255, 12, 10
+	setdynamicwarp MAP_PETALBURG_CITY, 255, 12, 10
 	releaseall
 	end
 

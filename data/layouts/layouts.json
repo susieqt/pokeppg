@@ -4430,6 +4430,26 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/CpRite/border.bin",
       "blockdata_filepath": "data/layouts/CpRite/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_V1",
+      "name": "PalletTownV1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_KantoV1",
+      "secondary_tileset": "gTileset_Unused2",
+      "border_filepath": "data/layouts/PalletTownV1/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTownV1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_V2",
+      "name": "SaffronV2_Layout",
+      "width": 40,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/SaffronV2/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronV2/map.bin"
     }
   ]
 }

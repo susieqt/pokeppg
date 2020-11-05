@@ -588,6 +588,8 @@
 // Map Group 33
 #define MAP_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE (0 | (33 << 8))
 #define MAP_CP_RITE                                (1 | (33 << 8))
+#define MAP_PALLET_TOWN_V1                         (2 | (33 << 8))
+#define MAP_SAFFRON_V2                             (3 | (33 << 8))
 
 #define MAP_GROUPS_COUNT 34
 
