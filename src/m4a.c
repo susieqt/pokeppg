@@ -5,9 +5,10 @@ extern const u8 gCgb3Vol[];
 
 #define BSS_CODE __attribute__((section(".bss.code")))
 
-BSS_CODE ALIGNED(4) char SoundMainRAM_Buffer[0x800] = {0};
+BSS_CODE ALIGNED(4) char SoundMainRAM_Buffer[0xC00] = {0};
+BSS_CODE ALIGNED(4) u32 hq_buffer_ptr[0x1C0] = {0};
 
-struct SoundInfo gSoundInfo;
+EWRAM_DATA struct SoundInfo gSoundInfo;
 struct PokemonCrySong gPokemonCrySongs[MAX_POKEMON_CRIES];
 struct MusicPlayerInfo gPokemonCryMusicPlayers[MAX_POKEMON_CRIES];
 void *gMPlayJumpTable[36];
@@ -75,9 +76,9 @@ void m4aSoundInit(void)
     SoundInit(&gSoundInfo);
     MPlayExtender(gCgbChans);
     m4aSoundMode(SOUND_MODE_DA_BIT_8
-               | SOUND_MODE_FREQ_13379
+               | SOUND_MODE_FREQ_26758
                | (12 << SOUND_MODE_MASVOL_SHIFT)
-               | (5 << SOUND_MODE_MAXCHN_SHIFT));
+               | (12 << SOUND_MODE_MAXCHN_SHIFT));
 
     for (i = 0; i < NUM_MUSIC_PLAYERS; i++)
     {
@@ -359,7 +360,7 @@ void SoundInit(struct SoundInfo *soundInfo)
     SOUND_INFO_PTR = soundInfo;
     CpuFill32(0, soundInfo, sizeof(struct SoundInfo));
 
-    soundInfo->maxChans = 8;
+    soundInfo->maxChans = 12;
     soundInfo->masterVolume = 15;
     soundInfo->plynote = ply_note;
     soundInfo->CgbSound = DummyFunc;

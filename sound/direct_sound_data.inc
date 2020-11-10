@@ -60,7 +60,7 @@ DirectSoundWaveData_sc88pro_rnd_kick::
 
 	.align 2
 DirectSoundWaveData_sc88pro_rnd_snare::
-	.incbin "sound/direct_sound_samples/sc88pro_rnd_snare.bin"
+	.incbin "sound/direct_sound_samples/sc88pro_rnd_snare_26758.bin"
 
 	.align 2
 DirectSoundWaveData_sc88pro_tr909_hand_clap::
@@ -68,7 +68,7 @@ DirectSoundWaveData_sc88pro_tr909_hand_clap::
 
 	.align 2
 DirectSoundWaveData_sc88pro_orchestra_snare::
-	.incbin "sound/direct_sound_samples/sc88pro_orchestra_snare.bin"
+	.incbin "sound/direct_sound_samples/sc88pro_orchestra_snare_26758.bin"
 
 	.align 2
 DirectSoundWaveData_unused_sc55_tom::
@@ -76,7 +76,7 @@ DirectSoundWaveData_unused_sc55_tom::
 
 	.align 2
 DirectSoundWaveData_unknown_close_hihat::
-	.incbin "sound/direct_sound_samples/unknown_close_hihat.bin"
+	.incbin "sound/direct_sound_samples/unknown_close_hihat_26758.bin"
 
 	.align 2
 DirectSoundWaveData_unknown_open_hihat::
@@ -88,7 +88,7 @@ DirectSoundWaveData_unknown_bell::
 
 	.align 2
 DirectSoundWaveData_sc88pro_tambourine::
-	.incbin "sound/direct_sound_samples/sc88pro_tambourine.bin"
+	.incbin "sound/direct_sound_samples/sc88pro_tambourine_26758.bin"
 
 	.align 2
 DirectSoundWaveData_trinity_cymbal_crash::
@@ -96,7 +96,7 @@ DirectSoundWaveData_trinity_cymbal_crash::
 
 	.align 2
 DirectSoundWaveData_sc88pro_orchestra_cymbal_crash::
-	.incbin "sound/direct_sound_samples/sc88pro_orchestra_cymbal_crash.bin"
+	.incbin "sound/direct_sound_samples/sc88pro_orchestra_cymbal_crash_26758.bin"
 
 	.align 2
 DirectSoundWaveData_sc88pro_mute_high_conga::

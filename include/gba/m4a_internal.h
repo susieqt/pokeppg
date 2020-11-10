@@ -294,7 +294,7 @@ extern const struct Song gSongTable[];
 
 #define MAX_DIRECTSOUND_CHANNELS 12
 
-#define PCM_DMA_BUF_SIZE 1584 // size of Direct Sound buffer
+#define PCM_DMA_BUF_SIZE 3136 // size of Direct Sound buffer
 
 struct SoundInfo
 {
