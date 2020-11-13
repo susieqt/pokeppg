@@ -77,6 +77,9 @@ $(MID_SUBDIR)/mus_lilycove_museum.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_encounter_brendan.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G067 -V078
+	
+$(MID_SUBDIR)/mus_scrapbattle.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G000 -V085 -P1
 
 $(MID_SUBDIR)/mus_encounter_male.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G028 -V080

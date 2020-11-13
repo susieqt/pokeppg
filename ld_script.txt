@@ -1227,6 +1227,7 @@ SECTIONS {
         sound/songs/midi/ph_nurse_blend.o(.rodata);
         sound/songs/midi/ph_nurse_held.o(.rodata);
         sound/songs/midi/ph_nurse_solo.o(.rodata);
+        sound/songs/midi/mus_scrapbattle.o(.rodata);
         sound/songs/midi/mus_pullthetrigger.o(.rodata);
     } =0
 
