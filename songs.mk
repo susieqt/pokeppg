@@ -77,6 +77,9 @@ $(MID_SUBDIR)/mus_lilycove_museum.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_encounter_brendan.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G067 -V078
+	
+$(MID_SUBDIR)/mus_scrapbattle.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G000 -V085 -P1
 
 $(MID_SUBDIR)/mus_encounter_male.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G028 -V080
@@ -575,6 +578,9 @@ $(MID_SUBDIR)/mus_evolution.s: %.s: %.mid
 
 $(MID_SUBDIR)/mus_encounter_elite_four.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G096 -V078
+
+$(MID_SUBDIR)/mus_pullthetrigger.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G000 -V100
 
 $(MID_SUBDIR)/mus_c_vs_legend_beast.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -V080

@@ -2,7 +2,7 @@
   "id": "MAP_PETALBURG_CITY",
   "name": "PetalburgCity",
   "layout": "LAYOUT_PETALBURG_CITY",
-  "music": "MUS_PETALBURG",
+  "music": "MUS_C_COMM_CENTER",
   "region_map_section": "MAPSEC_PETALBURG_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -29,6 +29,27 @@
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
       "dest_warp_id": 1
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
