@@ -427,16 +427,16 @@ gTileset_InsideOfTruck:: @ 83DFA94
 	.4byte gMetatileAttributes_InsideOfTruck
 	.4byte NULL @ animation callback
 
-	.align 2
-gTileset_Unused2:: @ 83DFAAC
-	.byte TRUE @ is compressed
-	.byte TRUE @ is secondary tileset
-	.2byte 0 @ padding
-	.4byte gTilesetTiles_Unused2
-	.4byte gTilesetPalettes_Unused2
-	.4byte gMetatiles_Unused2
-	.4byte gMetatileAttributes_Unused2
-	.4byte NULL @ animation callback
+//	.align 2
+//gTileset_Unused2:: @ 83DFAAC
+//	.byte TRUE @ is compressed
+//	.byte TRUE @ is secondary tileset
+//	.2byte 0 @ padding
+//	.4byte gTilesetTiles_Unused2
+//	.4byte gTilesetPalettes_Unused2
+//	.4byte gMetatiles_Unused2
+//	.4byte gMetatileAttributes_Unused2
+//	.4byte NULL @ animation callback
 
 	.align 2
 gTileset_Contest:: @ 83DFAC4
@@ -832,12 +832,12 @@ gTileset_UnionRoom:: @ 83DFDFC
 	.4byte NULL @ animation callback
 
 	.align 2
-gTileset_KantoV1::
+gTileset_Unused2::
 	.byte TRUE @ is compressed
-	.byte FALSE @ is secondary
-	.2byte 0
-	.4byte gTilesetTiles_KantoV1
-	.4byte gTilesetPalettes_KantoV1
-	.4byte gMetatiles_KantoV1
-	.4byte gMetatileAttributes_KantoV1
-	.4byte NULL
+	.byte TRUE @ is secondary tileset
+	.2byte 0 @ padding
+	.4byte gTilesetTiles_Unused2
+	.4byte gTilesetPalettes_Unused2
+	.4byte gMetatiles_Unused2
+	.4byte gMetatileAttributes_Unused2
+	.4byte NULL @ animation callback

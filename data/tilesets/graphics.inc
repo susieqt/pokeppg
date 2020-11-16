@@ -1061,11 +1061,11 @@ gTilesetPalettes_MauvilleGameCorner:: @ 8374288
 	.incbin "data/tilesets/secondary/mauville_game_corner/palettes/15.gbapal"
 
 	.align 2
-gTilesetTiles_Unused2:: @ 8374488
+gTilesetTiles_Unused2:: 
 	.incbin "data/tilesets/secondary/unused_2/tiles.4bpp.lz"
 
 	.align 2
-gTilesetPalettes_Unused2:: @ 83749B0
+gTilesetPalettes_Unused2::
 	.incbin "data/tilesets/secondary/unused_2/palettes/00.gbapal"
 	.incbin "data/tilesets/secondary/unused_2/palettes/01.gbapal"
 	.incbin "data/tilesets/secondary/unused_2/palettes/02.gbapal"
@@ -1730,22 +1730,22 @@ gTilesetPalettes_UnionRoom:: @ 8395678
 gTilesetTiles_UnionRoom:: @ 8395878
 	.incbin "data/tilesets/secondary/union_room/tiles.4bpp.lz"
 
-	.align 2
-gTilesetPalettes_KantoV1::
-	.incbin "data/tilesets/primary/kantov1/palettes/00.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/01.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/02.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/03.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/04.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/05.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/06.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/07.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/08.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/09.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/10.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/11.gbapal"
-	.incbin "data/tilesets/primary/kantov1/palettes/12.gbapal"
-
-	.align 2
-gTilesetTiles_KantoV1::
-	.incbin "data/tilesets/primary/kantov1/tiles.4bpp.lz"
+//	.align 2
+//gTilesetPalettes_KantoV1::
+//	.incbin "data/tilesets/primary/kantov1/palettes/00.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/01.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/02.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/03.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/04.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/05.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/06.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/07.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/08.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/09.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/10.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/11.gbapal"
+//	.incbin "data/tilesets/primary/kantov1/palettes/12.gbapal"
+//
+//	.align 2
+//gTilesetTiles_KantoV1::
+//	.incbin "data/tilesets/primary/kantov1/tiles.4bpp.lz"

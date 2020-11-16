@@ -223,7 +223,7 @@ $(TILESETGFXDIR)/secondary/mauville_game_corner/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 469
 
 $(TILESETGFXDIR)/secondary/unused_2/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 150
+	$(GFX) $< $@ -num_tiles 80
 
 $(TILESETGFXDIR)/secondary/rustboro_gym/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 60

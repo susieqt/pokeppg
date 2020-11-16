@@ -579,9 +579,6 @@ $(MID_SUBDIR)/mus_evolution.s: %.s: %.mid
 $(MID_SUBDIR)/mus_encounter_elite_four.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G096 -V078
 
-$(MID_SUBDIR)/mus_pullthetrigger.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G000 -V100
-
 $(MID_SUBDIR)/mus_c_vs_legend_beast.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -V080
 

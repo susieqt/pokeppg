@@ -4436,7 +4436,7 @@
       "name": "PalletTownV1_Layout",
       "width": 20,
       "height": 20,
-      "primary_tileset": "gTileset_KantoV1",
+      "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Unused2",
       "border_filepath": "data/layouts/PalletTownV1/border.bin",
       "blockdata_filepath": "data/layouts/PalletTownV1/map.bin"

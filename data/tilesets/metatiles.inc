@@ -326,13 +326,13 @@ gMetatiles_MauvilleGameCorner:: @ 83C3972
 gMetatileAttributes_MauvilleGameCorner:: @ 83C3F72
 	.incbin "data/tilesets/secondary/mauville_game_corner/metatile_attributes.bin"
 
-	.align 1
-gMetatiles_Unused2:: @ 83C4032
-	.incbin "data/tilesets/secondary/unused_2/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_Unused2:: @ 83C43D2
-	.incbin "data/tilesets/secondary/unused_2/metatile_attributes.bin"
+//	.align 1
+//gMetatiles_Unused2:: @ 83C4032
+//	.incbin "data/tilesets/secondary/unused_2/metatiles.bin"
+//
+//	.align 1
+//gMetatileAttributes_Unused2:: @ 83C43D2
+//	.incbin "data/tilesets/secondary/unused_2/metatile_attributes.bin"
 
 	.align 1
 gMetatiles_RustboroGym:: @ 83C4446
@@ -559,9 +559,9 @@ gMetatileAttributes_UnionRoom:: @ 83DF6A2
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
 
 	.align 1
-gMetatiles_KantoV1::
-	.incbin "data/tilesets/primary/kantov1/metatiles.bin"
+gMetatiles_Unused2::
+	.incbin "data/tilesets/secondary/unused_2/metatiles.bin"
 
 	.align 1
-gMetatileAttributes_KantoV1::
-	.incbin "data/tilesets/primary/kantov1/metatile_attributes.bin"
+gMetatileAttributes_Unused2::
+	.incbin "data/tilesets/secondary/unused_2/metatile_attributes.bin"
