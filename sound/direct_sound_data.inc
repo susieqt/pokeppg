@@ -112,7 +112,7 @@ DirectSoundWaveData_drum_and_percussion_kick::
 
 	.align 2
 DirectSoundWaveData_sd90_solo_snare::
-	.incbin "sound/direct_sound_samples/sd90_solo_snare.bin"
+	.incbin "sound/direct_sound_samples/sd90_solo_snare_26758.bin"
 
 	.align 2
 DirectSoundWaveData_sd90_ambient_tom::
