@@ -2,7 +2,7 @@
   "id": "MAP_PETALBURG_CITY",
   "name": "PetalburgCity",
   "layout": "LAYOUT_PETALBURG_CITY",
-  "music": "MUS_C_COMM_CENTER",
+  "music": "MUS_RG_FUCHSIA",
   "region_map_section": "MAPSEC_PETALBURG_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
@@ -17,6 +17,11 @@
       "direction": "up",
       "offset": -5,
       "map": "MAP_ROUTE101"
+    },
+    {
+      "direction": "right",
+      "offset": 1,
+      "map": "MAP_LITTLEROOT_TOWN"
     }
   ],
   "object_events": [
@@ -24,10 +29,10 @@
   ],
   "warp_events": [
     {
-      "x": 3,
+      "x": 4,
       "y": 23,
       "elevation": 0,
-      "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
+      "dest_map": "MAP_PETALBURG_CITY_MART",
       "dest_warp_id": 1
     },
     {
@@ -56,6 +61,29 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 4,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LittlerootTown_EventScript_MaysHouseSign"
+    },
+    {
+      "type": "sign",
+      "x": 22,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LittlerootTown_EventScript_BirchsLabSign"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "LittlerootTown_EventScript_TownSign"
+    }
   ]
 }

@@ -115,27 +115,27 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_CATERPIE"
-              },
-              {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_TAILLOW"
-              },
-              {
-                "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_WHISMUR"
-              },
-              {
-                "min_level": 2,
-                "max_level": 2,
                 "species": "SPECIES_WHISMUR"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
                 "species": "SPECIES_WHISMUR"
+              },
+              {
+                "min_level": 2,
+                "max_level": 2,
+                "species": "SPECIES_DUSKULL"
+              },
+              {
+                "min_level": 2,
+                "max_level": 2,
+                "species": "SPECIES_PICHU"
+              },
+              {
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_EEVEE"
               },
               {
                 "min_level": 3,

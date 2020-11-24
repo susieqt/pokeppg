@@ -715,70 +715,70 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall:: @ 81FA4D6
 	end
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork: @ 81FA4E2
-	.string "Hunh? PROF. BIRCH?\p"
-	.string "The PROF's away on fieldwork.\n"
+	.string "Hunh? PROF. BEYTAH?\p"
+	.string "KONKEY DONG's away on fieldwork.\n"
 	.string "Ergo, he isn't here.\p"
 	.string "Oh, let me explain what fieldwork is.\p"
-	.string "It is to study things in the natural\n"
-	.string "environment, like fields and mountains,\l"
-	.string "instead of a laboratory.\p"
-	.string "The PROF isn't one for doing desk work.\n"
-	.string "He's the type of person who would\l"
-	.string "rather go outside and experience\l"
-	.string "things than read about them here.$"
+	.string "It means he's digging through\n"
+	.string "garbage, trying to separate\l"
+	.string "BETA from BAD DATA.\p"
+	.string "BAD DATA really matters!\n"
+	.string "You could hurt someone's\l"
+	.string "reputation or feelings\l"
+	.string "leaking that stuff!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork: @ 81FA641
-	.string "The PROF isn't one for doing desk work.\n"
-	.string "He's the type of person who would\l"
-	.string "rather go outside and experience\l"
-	.string "things than read about them here.$"
+	.string "BAD DATA really matters!\n"
+	.string "You could hurt someone's\l"
+	.string "reputation or feelings\l"
+	.string "leaking that stuff!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo: @ 81FA6CE
-	.string "PROF. BIRCH is studying the habitats\n"
-	.string "and distribution of POKéMON.\p"
+	.string "PROF. DONG is studying the habitats\n"
+	.string "and distribution of BEYTAH.\p"
 	.string "The PROF enjoys {RIVAL}'s help, too.\n"
 	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon: @ 81FA74D
-	.string "PROF. BIRCH: So, {PLAYER}{KUN}.\p"
-	.string "I've heard so much about you from\n"
-	.string "your father.\p"
-	.string "I've heard that you don't have your\n"
-	.string "own POKéMON yet.\p"
-	.string "But the way you battled earlier,\n"
-	.string "you pulled it off with aplomb!\p"
-	.string "I guess you have your father's blood\n"
-	.string "in your veins after all!\p"
-	.string "Oh, yes. As thanks for rescuing me,\n"
-	.string "I'd like you to have the POKéMON you\l"
-	.string "used earlier.\p"
+	.string "PROF. DONG: So, {PLAYER}{KUN}.\p"
+	.string "Me see you found some BEYTAH!\n"
+	.string "Where you find it?\p"
+	.string "...What?\n"
+	.string "In the trash?\p"
+	.string "Did me assistant throw away\n"
+	.string "BEYTAH, thinking it was BAD DAYTAH?\p"
+	.string "Me knew me shouldn't have\n"
+	.string "trusted TWITTER TOURISTS!\p"
+	.string "As thanks for finding all that BEYTAH,\n"
+	.string "me let you keep the BEYTAH POKéMON\l"
+	.string "you used earlier!\p"
 	.string "{PLAYER} received the {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon: @ 81FA8B1
-	.string "PROF. BIRCH: While you're at it, why not\n"
+	.string "PROF. DONG: While you're at it, why not\n"
 	.string "give a nickname to that {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival: @ 81FA8F6
-	.string "PROF. BIRCH: If you work at POKéMON\n"
-	.string "and gain experience, I think you'll make\l"
-	.string "an extremely good TRAINER.\p"
-	.string "My kid, {RIVAL}, is also studying\n"
-	.string "POKéMON while helping me out.\p"
-	.string "{PLAYER}{KUN}, don't you think it might be\n"
-	.string "a good idea to go see {RIVAL}?$"
+	.string "PROF. DONG: Hey, you good at\n"
+	.string "finding BEYTAH! Even better\l"
+	.string "than TWITTER!\p"
+	.string "Me friend, {RIVAL}, is reporting\n"
+	.string "BEYTAH for him YOUTUBE!\p"
+	.string "{PLAYER}{KUN}, maybe you can\n"
+	.string "go help {RIVAL}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou: @ 81FA9D5
-	.string "PROF. BIRCH: Great!\n"
+	.string "PROF. BETA: Great!\n"
 	.string "{RIVAL} should be happy, too.\p"
-	.string "Get {RIVAL} to teach you what it\n"
-	.string "means to be a TRAINER.$"
+	.string "together maybe you even find out\n"
+	.string "how to open ,v file!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay: @ 81FAA35
-	.string "PROF. BIRCH: Oh, don't be that way.\n"
-	.string "You should go meet my kid.$"
+	.string "PROF. DONG: Oh, don't be that way.\n"
+	.string "You should go meet them.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome: @ 81FAA74
-	.string "PROF. BIRCH: {RIVAL}?\n"
+	.string "PROF. DONG: {RIVAL}?\n"
 	.string "Gone home, I think.\p"
 	.string "Or maybe that kid's scrabbling around\n"
 	.string "in tall grass again somewhere…\p"
@@ -786,36 +786,35 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome: @ 81FAA74
 	.string "you should get some rest at home.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex: @ 81FAB22
-	.string "PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "I heard you beat {RIVAL} on\n"
-	.string "your first try. That's excellent!\p"
-	.string "{RIVAL}'s been helping with my research\n"
+	.string "PROF. DONG: Oh, hi, {PLAYER}{KUN}!\p"
+	.string "Me heard you beat {RIVAL} on\n"
+	.string "first try. That's excellent!\p"
+	.string "{RIVAL}'s been reporting BEYTAH\n"
 	.string "for a long time.\p"
-	.string "{RIVAL} has an extensive history as\n"
-	.string "a TRAINER already.\p"
-	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
-	.string "research, but I think you should have\l"
+	.string "{RIVAL} downloaded many LEAKS!\p"
+	.string "Here, {PLAYER}{KUN}, me order this for me\n"
+	.string "research, but me think you should have\l"
 	.string "this POKéDEX.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex: @ 81FAC32
 	.string "{PLAYER} received the POKéDEX!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex: @ 81FAC4B
-	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
-	.string "tool that automatically makes a record\l"
-	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
+	.string "PROF. DONG: The POKéDEX is a high-tech\n"
+	.string "tool that tool that record\l"
+	.string "any BEYTAH you meet or catch.\p"
+	.string "Me friend, {RIVAL}, goes everywhere\n"
 	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
+	.string "Whenever my friend find BEYTAH\n"
 	.string "and records its data in the POKéDEX,\l"
 	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+	.string "reading TWITTER, and shows me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait: @ 81FAD6F
-	.string "PROF. BIRCH: Countless POKéMON\n"
+	.string "PROF. DONG: Countless BEYTAHMON\n"
 	.string "await you!\p"
-	.string "Argh, I'm getting the itch to get out\n"
-	.string "and do fieldwork again!$"
+	.string "ME WANT BEYTAH TOO! BEYTAH\n"
+	.string "BETTAH DEN DA FINAL EVERY TIME!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese: @ 81FADD7
 	.string "MAY: Oh, wow, {PLAYER}{KUN}!\n"
@@ -825,7 +824,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese: @ 81FADD7
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls: @ 81FAE40
 	.string "MAY: It's fun if you can get a lot of\n"
-	.string "POKéMON!\p"
+	.string "BETAMON!\p"
 	.string "I'm going to look all over the place\n"
 	.string "because I want different POKéMON.\p"
 	.string "If I find any cute POKéMON, I'll catch\n"
@@ -846,7 +845,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese: @ 81FAF3F
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls: @ 81FAF8E
 	.string "BRENDAN: You know it's more fun to\n"
-	.string "have a whole bunch of POKéMON.\p"
+	.string "have a whole bunch of BETAMON.\p"
 	.string "I'm going to explore all over the place\n"
 	.string "to find different POKéMON.\p"
 	.string "If I find any cool POKéMON, you bet\n"
@@ -857,7 +856,7 @@ LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull: @ 81FB05D
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext: @ 81FB073
 	.string "BRENDAN: Where should I look for\n"
-	.string "POKéMON next…$"
+	.string "BEYTAH next…$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine: @ 81FB0A2
 	.string "It's a serious-looking machine.\n"

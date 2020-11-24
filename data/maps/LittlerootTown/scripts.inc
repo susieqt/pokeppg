@@ -106,7 +106,7 @@ LittlerootTown_EventScript_SetMomStandingInFrontOfDoorPos:: @ 81E7E92
 	compare VAR_RESULT, MALE
 	call_if_eq LittlerootTown_EventScript_SetMomInFrontOfDoorMale
 	compare VAR_RESULT, FEMALE
-	call_if_eq LittlerootTown_EventScript_SetMomInFrontOfDoorFemale
+	call_if_eq LittlerootTown_EventScript_SetMomInFrontOfDoorMale
 	return
 
 LittlerootTown_EventScript_SetMomInFrontOfDoorMale:: @ 81E7EB1
@@ -245,7 +245,7 @@ LittlerootTown_EventScript_SetRivalBirchPosForDexUpgrade:: @ 81E7FEC
 	checkplayergender
 	compare VAR_RESULT, MALE
 	goto_if_eq LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeMale
-	goto LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeFemale
+	goto LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeMale
 	end
 
 LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeMale:: @ 81E8004
@@ -492,25 +492,25 @@ LittlerootTown_EventScript_GiveRunningShoesTrigger:: @ 81E8211
 	compare VAR_RESULT, MALE
 	call_if_eq LittlerootTown_EventScript_MomNoticePlayerMale
 	compare VAR_RESULT, FEMALE
-	call_if_eq LittlerootTown_EventScript_MomNoticePlayerFemale
+	call_if_eq LittlerootTown_EventScript_MomNoticePlayerMale
 	checkplayergender
 	compare VAR_RESULT, MALE
 	call_if_eq LittlerootTown_EventScript_SetHomeDoorCoordsMale
 	compare VAR_RESULT, FEMALE
-	call_if_eq LittlerootTown_EventScript_SetHomeDoorCoordsFemale
+	call_if_eq LittlerootTown_EventScript_SetHomeDoorCoordsMale
 	msgbox LittlerootTown_Text_WaitPlayer, MSGBOX_DEFAULT
 	closemessage
 	checkplayergender
 	compare VAR_RESULT, MALE
 	call_if_eq LittlerootTown_EventScript_MomApproachPlayerMale
 	compare VAR_RESULT, FEMALE
-	call_if_eq LittlerootTown_EventScript_MomApproachPlayerFemale
+	call_if_eq LittlerootTown_EventScript_MomApproachPlayerMale
 	call LittlerootTown_EventScript_GiveRunningShoes
 	checkplayergender
 	compare VAR_RESULT, MALE
 	call_if_eq LittlerootTown_EventScript_MomReturnHomeMale
 	compare VAR_RESULT, FEMALE
-	call_if_eq LittlerootTown_EventScript_MomReturnHomeFemale
+	call_if_eq LittlerootTown_EventScript_MomReturnHomeMale
 	goto LittlerootTown_EventScript_SetReceivedRunningShoes
 	end
 
@@ -977,9 +977,9 @@ LittlerootTown_Text_WaitPlayer: @ 81E87E1
 
 LittlerootTown_Text_WearTheseRunningShoes: @ 81E87F0
 	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to PROF. BIRCH?\p"
+	.string "introduce yourself to PROF. DONG?\p"
 	.string "Oh! What an adorable POKéMON!\n"
-	.string "You got it from PROF. BIRCH. How nice!\p"
+	.string "You got it from PROF. DONG. How nice!\p"
 	.string "You're your father's child, all right.\n"
 	.string "You look good together with POKéMON!\p"
 	.string "Here, honey! If you're going out on an\n"
@@ -1014,10 +1014,10 @@ LittlerootTown_Text_CanUsePCToStoreItems: @ 81E8ACF
 	.string "The power of science is staggering!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab: @ 81E8B25
-	.string "PROF. BIRCH spends days in his LAB\n"
+	.string "PROF. DONG spends days in his LAB\n"
 	.string "studying, then he'll suddenly go out in\l"
 	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
+	.string "When does PROF. DONG spend time\n"
 	.string "at home?$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut: @ 81E8BB8
@@ -1039,7 +1039,7 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening: @ 81E8C3A
 	.string "for me?$"
 
 LittlerootTown_Text_YouSavedBirch: @ 81E8CE3
-	.string "You saved PROF. BIRCH!\n"
+	.string "You saved that GORILLA!\n"
 	.string "I'm so glad!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon: @ 81E8D07
@@ -1047,20 +1047,20 @@ LittlerootTown_Text_GoodLuckCatchingPokemon: @ 81E8D07
 	.string "Good luck!$"
 
 LittlerootTown_Text_TownSign: @ 81E8D32
-	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "TOWN 1 NAME HERE\n"
+	.string "NORTH to ROUTE 1$"
 
 LittlerootTown_Text_ProfBirchsLab: @ 81E8D69
-	.string "PROF. BIRCH'S POKéMON LAB$"
+	.string "BEYTAH RESEARCH LAB$"
 
 LittlerootTown_Text_PlayersHouse: @ 81E8D83
 	.string "{PLAYER}'s HOUSE$"
 
 LittlerootTown_Text_ProfBirchsHouse: @ 81E8D8E
-	.string "PROF. BIRCH'S HOUSE$"
+	.string "PROF. BEYTAH'S HOUSE$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab: @ 81E8DA2
-	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
+	.string "PROF. DONG: Well, well, {PLAYER}{KUN}!\n"
 	.string "That was good work out there!\p"
 	.string "I knew there was something special\n"
 	.string "about you when I first saw you,\l"

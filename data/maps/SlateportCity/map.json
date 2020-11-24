@@ -53,8 +53,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RICH_BOY",
-      "x": 5,
-      "y": 13,
+      "x": 7,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
@@ -80,7 +80,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
       "x": 31,
-      "y": 27,
+      "y": 28,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -131,8 +131,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
-      "x": 29,
-      "y": 13,
+      "x": 28,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -144,8 +144,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
-      "x": 28,
-      "y": 14,
+      "x": 27,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -157,8 +157,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 28,
-      "y": 13,
+      "x": 27,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -249,7 +249,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
       "x": 30,
-      "y": 27,
+      "y": 28,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -417,7 +417,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 26,
+      "x": 27,
       "y": 27,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -483,15 +483,15 @@
   ],
   "warp_events": [
     {
-      "x": 19,
-      "y": 19,
+      "x": 33,
+      "y": 12,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_POKEMON_CENTER_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 13,
-      "y": 26,
+      "x": 21,
+      "y": 22,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_MART",
       "dest_warp_id": 0
@@ -504,8 +504,8 @@
       "dest_warp_id": 0
     },
     {
-      "x": 10,
-      "y": 12,
+      "x": 24,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_BATTLE_TENT_LOBBY",
       "dest_warp_id": 0
@@ -518,15 +518,15 @@
       "dest_warp_id": 0
     },
     {
-      "x": 30,
-      "y": 26,
+      "x": 15,
+      "y": 13,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_OCEANIC_MUSEUM_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 5,
-      "y": 19,
+      "x": 10,
+      "y": 23,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_NAME_RATERS_HOUSE",
       "dest_warp_id": 0
@@ -539,15 +539,15 @@
       "dest_warp_id": 1
     },
     {
-      "x": 28,
-      "y": 12,
+      "x": 26,
+      "y": 25,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_HARBOR",
       "dest_warp_id": 0
     },
     {
-      "x": 40,
-      "y": 7,
+      "x": 29,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_SLATEPORT_CITY_HARBOR",
       "dest_warp_id": 2
@@ -563,8 +563,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 10,
-      "y": 13,
+      "x": 11,
+      "y": 17,
       "elevation": 3,
       "var": "VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE",
       "var_value": "2",
@@ -574,24 +574,24 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 8,
-      "y": 19,
+      "x": 15,
+      "y": 23,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_EventScript_NameRatersHouseSign"
     },
     {
       "type": "sign",
-      "x": 20,
-      "y": 19,
+      "x": 31,
+      "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
     },
     {
       "type": "sign",
-      "x": 21,
-      "y": 19,
+      "x": 22,
+      "y": 29,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
@@ -606,16 +606,16 @@
     },
     {
       "type": "sign",
-      "x": 24,
-      "y": 12,
+      "x": 16,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_EventScript_HarborSign"
     },
     {
       "type": "sign",
-      "x": 15,
-      "y": 26,
+      "x": 19,
+      "y": 22,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemartSign"
@@ -630,8 +630,8 @@
     },
     {
       "type": "sign",
-      "x": 26,
-      "y": 26,
+      "x": 28,
+      "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_EventScript_OceanicMuseumSign"
@@ -646,16 +646,16 @@
     },
     {
       "type": "sign",
-      "x": 8,
-      "y": 26,
+      "x": 17,
+      "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_EventScript_PokemonFanClubSign"
     },
     {
       "type": "sign",
-      "x": 7,
-      "y": 13,
+      "x": 25,
+      "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SlateportCity_EventScript_BattleTentSign"

@@ -56,7 +56,7 @@ LittlerootTown_BrendansHouse_1F_EventScript_MoveMomToDoor:: @ 81F77DE
 @ Many of the below scripts have no gender check because they assume youre in the correct house
 @ The below SS Ticket script uses Mays house state by accident(?), but theyre both set identically after the intro
 LittlerootTown_BrendansHouse_1F_OnFrame: @ 81F77EA
-	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_BrendansHouse_1F_EventScript_EnterHouseMovingIn
+	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 3, LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock
 	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 5, LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock
 	map_script_2 VAR_LITTLEROOT_INTRO_STATE, 6, LittlerootTown_BrendansHouse_1F_EventScript_PetalburgGymReport
 	map_script_2 VAR_LITTLEROOT_HOUSES_STATE_MAY, 1, LittlerootTown_BrendansHouse_1F_EventScript_YoureNewNeighbor
@@ -327,18 +327,18 @@ PlayersHouse_1F_Text_OhComeQuickly: @ 81F7B96
 	.string "Quick! Come quickly!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn: @ 81F7BBC
-	.string "MOM: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "MOM: Look! It's POKETHON!\n"
+	.string "Maybe they'll have BETA!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim: @ 81F7BF1
 	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "I think RACIEB was on, but we\n"
+	.string "missed her.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor: @ 81F7C35
 	.string "Oh, yes.\n"
-	.string "One of DAD's friends lives in town.\p"
-	.string "PROF. BIRCH is his name.\p"
+	.string "A gorilla lives in town.\p"
+	.string "PROF. DONG is his name.\p"
 	.string "He lives right next door, so you should\n"
 	.string "go over and introduce yourself.$"
 
@@ -347,7 +347,7 @@ PlayersHouse_1F_Text_SeeYouHoney: @ 81F7CC3
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch: @ 81F7CD8
 	.string "MOM: Did you introduce yourself to\n"
-	.string "PROF. BIRCH?$"
+	.string "PROF. DONG?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit: @ 81F7D08
 	.string "MOM: How are you doing, {PLAYER}?\n"
@@ -384,8 +384,8 @@ PlayersHouse_1F_Text_Vigoroth2: @ 81F7EB3
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym: @ 81F7EC6
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "DR.LAVA: …We brought you this\n"
+	.string "report from in front of HELIX CHAMBER.$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV: @ 81F7F0F
 	.string "There is a movie on TV.\p"
