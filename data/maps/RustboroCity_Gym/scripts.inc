@@ -113,17 +113,17 @@ RustboroCity_Gym_Text_GymGuideAdvice: @ 821309D
 	.string "I'm no TRAINER, not me, but I can\n"
 	.string "sure give you winning advice.\p"
 	.string "That's settled, then! We'll aim for the\n"
-	.string "POKéMON CHAMPIONSHIP together!\p"
+	.string "BEYTAH CHAMPIONSHIP together!\p"
 	.string "It's your job as a TRAINER to collect\n"
 	.string "GYM BADGES, am I right?\p"
 	.string "But GYM LEADERS aren't pushovers!\p"
 	.string "And that's where I come in!\n"
 	.string "I'm here to provide expert advice!\p"
-	.string "ROXANNE, the GYM LEADER, is a user\n"
-	.string "of ROCK-type POKéMON.\p"
-	.string "The ROCK type is very durable, but\n"
-	.string "it can't stand WATER-type and\l"
-	.string "GRASS-type moves.\p"
+	.string "MLGARI, the GYM LEADER, is a user\n"
+	.string "of NORMAL-type POKéMON.\p"
+	.string "The NORMAL type is weak to FIGHTING,\n"
+	.string "but DUAL-TYPES are a little\l"
+	.string "trickier to counter!\p"
 	.string "Come see me afterwards, if you beat\n"
 	.string "the GYM LEADER.\p"
 	.string "Well, go for it!$"
@@ -133,7 +133,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory: @ 82132E2
 	.string "My cheering must've worked!\p"
 	.string "Great!\n"
 	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
+	.string "The PCP BADGE you got should be\n"
 	.string "properly recorded on it.\p"
 	.string "In other words…\p"
 	.string "You've climbed the first step on\n"
@@ -148,26 +148,26 @@ RustboroCity_Gym_Text_JoshDefeat: @ 821342D
 	.string "You were too good for me…$"
 
 RustboroCity_Gym_Text_JoshPostBattle: @ 8213447
-	.string "You haven't seen anything of the ROCK\n"
-	.string "type's terrifying power!$"
+	.string "I could've won if he'd stop\n"
+	.string "feeding us PCP!$"
 
 RustboroCity_Gym_Text_TommyIntro: @ 8213486
 	.string "If you can't beat me, you won't stand\n"
-	.string "a chance against ROXANNE!$"
+	.string "a chance against MLGARI!$"
 
 RustboroCity_Gym_Text_TommyDefeat: @ 82134C6
 	.string "Wow! You've got some potential!$"
 
 RustboroCity_Gym_Text_TommyPostBattle: @ 82134E6
-	.string "ROXANNE is stronger than me by\n"
+	.string "MLGARI is stronger than me by\n"
 	.string "several times.\p"
 	.string "You'd better be on your guard!$"
 
 RustboroCity_Gym_Text_MarcIntro: @ 8213533
-	.string "We might be in the middle of town,\n"
+	.string "We might be in the edge of town,\n"
 	.string "but so what?\p"
-	.string "My ROCK POKéMON need room to\n"
-	.string "rampage!$"
+	.string "I need a place to hide\n"
+	.string "my PCP stash!$"
 
 RustboroCity_Gym_Text_MarcDefeat: @ 8213589
 	.string "Oh, man oh man!\n"
@@ -175,17 +175,17 @@ RustboroCity_Gym_Text_MarcDefeat: @ 8213589
 
 RustboroCity_Gym_Text_MarcPostBattle: @ 82135C0
 	.string "I have to hand it to our LEADER.\p"
-	.string "It took smarts and sense for her to\n"
-	.string "pick the ROCK type at her young age.$"
+	.string "It took smarts and sense for him to\n"
+	.string "pick the ROCK type at his young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro: @ 821362A
-	.string "Hello, I am ROXANNE, the RUSTBORO\n"
-	.string "POKéMON GYM LEADER.\p"
-	.string "I became a GYM LEADER so that I might\n"
-	.string "apply what I learned at the POKéMON\l"
-	.string "TRAINER'S SCHOOL in battle.\p"
-	.string "Would you kindly demonstrate how you\n"
-	.string "battle, and with which POKéMON?$"
+	.string "yoo my new toaster is making a\n"
+	.string "FUCKING weird smell\p"
+	.string "the only way i can describe it is\n"
+	.string "that it's like a old dirty sears\p"
+	.string "or kmart in an extremely rural area\n"
+	.string "area of a city\p"
+	.string "anyway let's battle now$"
 
 RustboroCity_Gym_Text_RoxanneDefeat: @ 821370B
 	.string "So…\n"
@@ -193,18 +193,18 @@ RustboroCity_Gym_Text_RoxanneDefeat: @ 821370B
 	.string "It seems that I still have much more\n"
 	.string "to learn…\p"
 	.string "I understand.\p"
-	.string "The POKéMON LEAGUE's rules state\n"
+	.string "The BEYTAH LEAGUE's rules state\n"
 	.string "that TRAINERS are to be given this\l"
 	.string "if they defeat a GYM LEADER.\p"
-	.string "Please accept the official POKéMON\n"
-	.string "LEAGUE STONE BADGE.$"
+	.string "Please accept the official BEYTAH\n"
+	.string "LEAGUE PCP BADGE.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge: @ 82137EC
-	.string "{PLAYER} received the STONE BADGE\n"
-	.string "from ROXANNE.$"
+	.string "{PLAYER} received the PCP BADGE\n"
+	.string "from MLGARI.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis: @ 8213816
-	.string "The STONE BADGE heightens the ATTACK\n"
+	.string "The PCP BADGE heightens the ATTACK\n"
 	.string "power of your POKéMON.\p"
 	.string "It also enables them to use the HM move\n"
 	.string "CUT outside of battle.\p"
@@ -227,11 +227,11 @@ RustboroCity_Gym_Text_RoxannePostBattle: @ 82139A7
 	.string "learn many things.$"
 
 RustboroCity_Gym_Text_GymStatue: @ 8213A21
-	.string "RUSTBORO CITY POKéMON GYM$"
+	.string "UNNAMED CITY POKéMON GYM$"
 
 RustboroCity_Gym_Text_GymStatueCertified: @ 8213A3B
-	.string "RUSTBORO CITY POKéMON GYM\p"
-	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
+	.string "UNNAMED CITY POKéMON GYM\p"
+	.string "MLGARI'S CERTIFIED TRAINERS:\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall: @ 8213A76
