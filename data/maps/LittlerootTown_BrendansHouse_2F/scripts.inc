@@ -286,6 +286,23 @@ PlayersHouse_2F_EventScript_GameCube:: @ 81F865F
 	msgbox PlayersHouse_2F_Text_ItsAGameCube, MSGBOX_SIGN
 	end
 
+PlayersHouse_2F_EventScript_ForceSetClock::
+	lockall
+	msgbox PlayersHouse_2F_Text_GoToSetClock, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, PlayersHouse_2F_Movement_ForceSetClock
+	waitmovement 0
+	releaseall
+	end
+
+PlayersHouse_2F_Movement_ForceSetClock:
+	walk_right
+	step_end
+
+PlayersHouse_2F_Text_GoToSetClock:
+	.string "You feel strangely compelled\n"
+	.string "to set your clock.$"
+
 PlayersHouse_2F_Text_ClockIsStopped: @ 81F8668
 	.string "The clock is stopped…\p"
 	.string "Better set it and start it!$"

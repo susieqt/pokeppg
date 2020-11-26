@@ -64,17 +64,10 @@ PlayersHouse_2F_EventScript_WallClock:: @ 8292799
 	msgbox PlayersHouse_2F_Text_ClockIsStopped, MSGBOX_DEFAULT
 	call PlayersHouse_2F_EventScript_SetWallClock
 	delay 30
-	setvar VAR_LITTLEROOT_INTRO_STATE, 6
+	setvar VAR_LITTLEROOT_INTRO_STATE, 7
 	setflag FLAG_SET_WALL_CLOCK
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2
-	checkplayergender
-	compare VAR_RESULT, MALE
-	call_if_eq PlayersHouse_2F_EventScript_MomComesUpstairsMale
-	compare VAR_RESULT, FEMALE
-	call_if_eq PlayersHouse_2F_EventScript_MomComesUpstairsFemale
-	playse SE_EXIT
-	removeobject VAR_0x8008
 	releaseall
 	end
 

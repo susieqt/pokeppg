@@ -20,7 +20,7 @@
     },
     {
       "direction": "right",
-      "offset": 1,
+      "offset": 2,
       "map": "MAP_LITTLEROOT_TOWN"
     }
   ],
@@ -33,7 +33,7 @@
       "y": 23,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_CITY_MART",
-      "dest_warp_id": 1
+      "dest_warp_id": 0
     },
     {
       "x": 17,
