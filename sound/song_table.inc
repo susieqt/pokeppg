@@ -348,7 +348,7 @@ gSongTable:: @ 86B49F0
 	song dummy_song_header, 0, 0
 	song dummy_song_header, 0, 0
 	song dummy_song_header, 0, 0
-	song dummy_song_header, 0, 0
+	song mus_cornered, 0, 0
 	song mus_autism, 0, 0
 	song mus_scrapbattle, 0, 0
 	song mus_littleroot_test, 0, 0
