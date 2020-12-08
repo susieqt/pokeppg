@@ -2203,10 +2203,12 @@ DirectSoundWaveData_sqdown60::
 	.incbin "sound/direct_sound_samples/sqdown60.bin"
 	
 	.align 2
+DirectSoundWaveData_sinewavec247::
 DirectSoundWaveData_sc88_55_sinewavec247::
 	.incbin "sound/direct_sound_samples/sinewavec247.bin"
 	
 	.align 2
+DirectSoundWaveData_triwavec241::
 DirectSoundWaveData_sc88_55_triwavec241::
 	.incbin "sound/direct_sound_samples/triwavec241.bin"
 	
@@ -2219,5 +2221,6 @@ DirectSoundWaveData_NESPulse2::
 	.incbin "sound/direct_sound_samples/NESPulse2.bin"
 	
 	.align 2
+DirectSoundWaveData_NESPulse3::
 DirectSoundWaveData_sc88_55_NESPulse3::
 	.incbin "sound/direct_sound_samples/NESPulse3.bin"
