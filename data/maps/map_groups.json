@@ -93,7 +93,10 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "Rails",
+    "RailsPlains0",
+    "RailsSouth1"
   ],
   "gMapGroup1": [
     "LittlerootTown_BrendansHouse_1F",
@@ -221,7 +224,8 @@
     "FortreeCity_House3",
     "FortreeCity_House4",
     "FortreeCity_House5",
-    "FortreeCity_DecorationShop"
+    "FortreeCity_DecorationShop",
+    "Train1"
   ],
   "gMapGroup13": [
     "LilycoveCity_CoveLilyMotel_1F",

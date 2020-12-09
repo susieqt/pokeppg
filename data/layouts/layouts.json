@@ -45,9 +45,9 @@
       "id": "LAYOUT_FORTREE_CITY",
       "name": "FortreeCity_Layout",
       "width": 40,
-      "height": 20,
+      "height": 40,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Fortree",
+      "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/FortreeCity/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity/map.bin"
     },
@@ -55,7 +55,7 @@
       "id": "LAYOUT_LILYCOVE_CITY",
       "name": "LilycoveCity_Layout",
       "width": 80,
-      "height": 40,
+      "height": 90,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/LilycoveCity/border.bin",
@@ -214,17 +214,17 @@
     {
       "id": "LAYOUT_ROUTE106",
       "name": "Route106_Layout",
-      "width": 80,
-      "height": 20,
+      "width": 100,
+      "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Route106/border.bin",
       "blockdata_filepath": "data/layouts/Route106/map.bin"
     },
     {
       "id": "LAYOUT_ROUTE107",
       "name": "Route107_Layout",
-      "width": 60,
+      "width": 40,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
@@ -3937,7 +3937,7 @@
       "width": 80,
       "height": 80,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lilycove",
+      "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/SafariZone_Northeast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northeast/map.bin"
     },
@@ -4417,7 +4417,7 @@
       "width": 50,
       "height": 30,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Rustboro",
+      "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/Train/border.bin",
       "blockdata_filepath": "data/layouts/Train/map.bin"
     },
@@ -4450,6 +4450,46 @@
       "secondary_tileset": "gTileset_Petalburg",
       "border_filepath": "data/layouts/SaffronV2/border.bin",
       "blockdata_filepath": "data/layouts/SaffronV2/map.bin"
+    },
+    {
+      "id": "LAYOUT_TRAIN1",
+      "name": "Train1_Layout",
+      "width": 40,
+      "height": 31,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/Train1/border.bin",
+      "blockdata_filepath": "data/layouts/Train1/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAILS",
+      "name": "Rails_Layout",
+      "width": 100,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/Rails/border.bin",
+      "blockdata_filepath": "data/layouts/Rails/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAILS_PLAINS0",
+      "name": "RailsPlains0_Layout",
+      "width": 100,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/RailsPlains0/border.bin",
+      "blockdata_filepath": "data/layouts/RailsPlains0/map.bin"
+    },
+    {
+      "id": "LAYOUT_RAILS_SOUTH1",
+      "name": "RailsSouth1_Layout",
+      "width": 100,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fallarbor",
+      "border_filepath": "data/layouts/RailsSouth1/border.bin",
+      "blockdata_filepath": "data/layouts/RailsSouth1/map.bin"
     }
   ]
 }

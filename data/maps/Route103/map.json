@@ -22,6 +22,11 @@
       "direction": "right",
       "offset": -60,
       "map": "MAP_ROUTE110"
+    },
+    {
+      "direction": "left",
+      "offset": -59,
+      "map": "MAP_SAFARI_ZONE_NORTHEAST"
     }
   ],
   "object_events": [

@@ -1068,3 +1068,11 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/PalletTownV1/scripts.inc"
 
 	.include "data/maps/SaffronV2/scripts.inc"
+
+	.include "data/maps/Train1/scripts.inc"
+
+	.include "data/maps/Rails/scripts.inc"
+
+	.include "data/maps/RailsPlains0/scripts.inc"
+
+	.include "data/maps/RailsSouth1/scripts.inc"
