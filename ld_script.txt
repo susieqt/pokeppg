@@ -1230,6 +1230,7 @@ SECTIONS {
         sound/songs/midi/mus_scrapbattle.o(.rodata);
         sound/songs/midi/mus_autism.o(.rodata);
         sound/songs/midi/mus_cornered.o(.rodata);
+        sound/songs/midi/mus_b_lake_trio_mix.o(.rodata);
     } =0
 
     lib_rodata :

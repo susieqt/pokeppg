@@ -642,6 +642,9 @@ $(MID_SUBDIR)/mus_autism.s: %.s: %.mid
 $(MID_SUBDIR)/mus_cornered.s: %.s: %.mid
 	$(MID) $< $@ -E -R188 -G000 -V080
 
+$(MID_SUBDIR)/mus_b_lake_trio_mix.s: %.s: %.mid
+	$(MID) $< $@ -E -R188 -G000 -V080
+
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
 
